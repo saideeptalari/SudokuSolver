@@ -28,7 +28,7 @@ class SolveSudoku(object):
             return True
         else:
             return False
-        
+
     def _solve(self):
         stop = [0,0]
         if not self._find_empty(stop):
